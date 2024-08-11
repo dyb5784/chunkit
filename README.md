@@ -92,7 +92,7 @@ This gives you better results because:
 
 This free open source package primarily chunks webpages and html.
 
-To access more filetypes such as PDF, CSV, JSON, YAML, MD and DOCX, you can use Chunkit Plus.
+To access more filetypes such as PDF, CSV, JSON, YAML, MD and DOCX, you can use [Chunkit Plus.](https://app.chunkit.dev/Get_API_Key)
 
 ### License
 
