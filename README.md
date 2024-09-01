@@ -86,40 +86,11 @@ This gives you better results because:
 * Online content tends to be logically split in paragraphs delimited by headers.
 * By chunking based on headers, this method preserves semantic meaning better.
 * You get a much cleaner, semantically cohesive paragraph of data.
-* You can then use Chunkit to remove noise or extract specific data.
 
 ### Supported filetypes
 
 This free open source package primarily chunks webpages and html.
 
-To access more filetypes, and to support the development of this package - you can use Chunkit Plus.
-
-### Chunkit Plus
-
-Chunkit Plus allows you to chunk more filetypes: PDF, CSV, JSON, YAML, MD and DOCX.
-
-Chunkit Plus also offers a number of improvements:
-
-* Captures javascript-rendered content.
-* Uses improved chunking algorithms.
-* Can optionally generate Q&A pairs.
-* Supports automatic noise-removal.
-* Performs automatic retries.
-
-To use Chunkit Plus, you need an API key:
-
-1. Go to [app.chunkit.dev](https://app.chunkit.dev) and log in.
-2. Navigate to Deploy API section.
-3. Generate a new API key.
-4. Initialize Chunker with API key:
-
-```python
-from chunkit import Chunker
-
-# Initialize the Chunker with API key
-chunker = Chunker(api_key='your-api-key-here')
-```
-That's it! The rest works as the example above.
 ### License
 
 This project is licensed under GPL v3 - see the [LICENSE](LICENSE) file for details.

@@ -55,8 +55,7 @@ class Chunker:
                 if ctype is None or ext.startswith(".htm"):  # Fallback
                     ctype = "text/html"
                 if "html" not in ctype:
-                    err = ("Only HTML is supported with Chunkit Core. For other filetypes,"
-                           " you can get an API key for Chunkit Plus: app.chunkit.dev")
+                    err = "Only HTML is supported with Chunkit Core."
                     raise ValueError(err)
                 body = urlopen(Request(url=url)).read().decode(errors="ignore")
                 soup = BeautifulSoup(body, 'html.parser')
